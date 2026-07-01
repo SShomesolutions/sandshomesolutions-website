@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Schedule a Call — S+S Home Solutions</title>
+<meta name="description" content="Book a free, no-obligation call with S+S Home Solutions to discuss your property and get a cash offer on your timeline." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://sandshomesolutions.com/schedule.html" />
+
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="favicon.png" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://sandshomesolutions.com/schedule.html" />
+<meta property="og:title" content="Schedule a Call — S+S Home Solutions" />
+<meta property="og:description" content="Book a free, no-obligation call to discuss your property and get a cash offer on your timeline." />
+<meta property="og:image" content="https://sandshomesolutions.com/family_photo_square.jpg" />
+<meta property="og:site_name" content="S+S Home Solutions" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #0f1d2e;
+    --ink-soft: #1c2d44;
+    --cream: #f5efe4;
+    --cream-deep: #ecdfc8;
+    --paper: #fbf8f1;
+    --signal: #bf770a;
+    --signal-deep: #9c6108;
+    --moss: #1694a2;
+    --serif: 'Fraunces', Georgia, serif;
+    --sans: 'Inter Tight', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav {
+    background: rgba(251, 248, 241, 0.95);
+    border-bottom: 1px solid rgba(15,29,46,0.08);
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    backdrop-filter: blur(8px);
+  }
+  .nav-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: var(--serif);
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .logo span { color: var(--signal); }
+  .nav-phone {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .sched-hero {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 60px 28px 44px;
+    text-align: center;
+  }
+  .sched-hero-inner { max-width: 700px; margin: 0 auto; }
+  .breadcrumb {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    color: var(--signal);
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .breadcrumb a { color: rgba(245,239,228,0.6); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--signal); }
+  .sched-hero h1 {
+    font-family: var(--serif);
+    font-weight: 900;
+    font-size: clamp(30px, 4.5vw, 46px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+  .sched-hero h1 em { font-style: italic; color: var(--signal); font-weight: 400; }
+  .sched-hero p { font-size: 17px; color: rgba(245,239,228,0.85); }
+
+  .sched-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 28px 80px;
+  }
+
+  .sched-reassure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  .reassure-pill {
+    background: white;
+    border: 1.5px solid var(--cream-deep);
+    border-radius: 999px;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-soft);
+  }
+  .reassure-pill strong { color: var(--moss); }
+
+  .calendly-frame-wrap {
+    background: white;
+    border: 1.5px solid var(--cream-deep);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 24px 48px -20px rgba(15, 29, 46, 0.2);
+  }
+
+  .calendly-inline-widget {
+    min-width: 320px;
+    height: 750px;
+  }
+
+  .sched-fallback {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .sched-fallback a { color: var(--moss); font-weight: 600; }
+
+  footer {
+    background: var(--ink);
+    color: rgba(245,239,228,0.7);
+    padding: 40px 28px;
+    text-align: center;
+    font-size: 14px;
+  }
+  footer a { color: var(--signal); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .sched-hero { padding: 44px 18px 36px; }
+    .sched-wrap { padding: 32px 14px 60px; }
+    .calendly-inline-widget { height: 850px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-wrap">
+    <a href="/" class="logo">S<span>+</span>S Home Solutions</a>
+    <a href="tel:+13129990021" class="nav-phone">(312) 999-0021</a>
+  </div>
+</nav>
+
+<header class="sched-hero">
+  <div class="sched-hero-inner">
+    <div class="breadcrumb"><a href="/">← Back to home</a> · Schedule</div>
+    <h1>Let's talk about <em>your timing.</em></h1>
+    <p>Pick a time that works for you. No pressure, no scripts, just a real conversation about your property and your options.</p>
+  </div>
+</header>
+
+<main class="sched-wrap">
+
+  <div class="sched-reassure">
+    <span class="reassure-pill"><strong>15 minutes</strong> · no obligation</span>
+    <span class="reassure-pill"><strong>Free</strong> · always</span>
+    <span class="reassure-pill"><strong>Angela</strong> · owner, not a call center</span>
+  </div>
+
+  <div class="calendly-frame-wrap">
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/sscreativehomesolutions/30min?month=2026-07&date=2026-07-08" data-resize="true"></div>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <!-- Calendly inline widget end -->
+  </div>
+
+  <p class="sched-fallback">
+    Having trouble with the calendar above? You can also
+    <a href="https://calendly.com/sscreativehomesolutions/30min?month=2026-07&date=2026-07-08" target="_blank" rel="noopener">book directly on Calendly</a>,
+    or just call us at <a href="tel:+13129990021">(312) 999-0021</a>.
+  </p>
+
+</main>
+
+<footer>
+  <p><strong>S+S Home Solutions</strong> · <a href="tel:+13129990021">(312) 999-0021</a> · <a href="/blog/">Blog</a> · <a href="/">Get a Cash Offer</a></p>
+  <p style="margin-top: 12px; font-size: 12px; color: rgba(245,239,228,0.4);">© 2026 S+S Home Solutions. Your timing. Our solution.</p>
+</footer>
+
+</body>
+</html>

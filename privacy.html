@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — S+S Home Solutions</title>
+<meta name="description" content="Privacy Policy for S+S Home Solutions. Learn how we collect, use, and protect your information, including how we handle phone numbers and SMS consent. We never sell your data." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://sandshomesolutions.com/privacy.html" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="favicon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #0f1d2e;
+    --ink-soft: #1c2d44;
+    --cream: #f5efe4;
+    --cream-deep: #ecdfc8;
+    --paper: #fbf8f1;
+    --signal: #bf770a;
+    --signal-deep: #9c6108;
+    --moss: #1694a2;
+    --rule: #2a3d57;
+    --serif: 'Fraunces', Georgia, serif;
+    --sans: 'Inter Tight', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* NAV */
+  .nav {
+    background: var(--cream);
+    border-bottom: 1px solid var(--cream-deep);
+    padding: 18px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+  .logo .plus { color: var(--signal); }
+  .nav-phone {
+    font-weight: 700;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .nav-phone .dot {
+    color: #2ecc71;
+    margin-right: 6px;
+  }
+
+  /* HERO BAND */
+  .doc-hero {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 64px 28px 56px;
+  }
+  .doc-hero-inner { max-width: 820px; margin: 0 auto; }
+  .doc-eyebrow {
+    color: var(--signal);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .doc-hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(34px, 6vw, 52px);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+  }
+  .doc-hero p {
+    color: #c4d0e0;
+    font-size: 16px;
+    max-width: 620px;
+  }
+  .doc-updated {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #8fa3bd;
+    letter-spacing: 0.02em;
+  }
+
+  /* BODY */
+  .doc-body {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 56px 28px 80px;
+  }
+  .doc-body h2 {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    margin: 44px 0 14px;
+    color: var(--ink);
+  }
+  .doc-body h2:first-child { margin-top: 0; }
+  .doc-body h3 {
+    font-family: var(--sans);
+    font-size: 17px;
+    font-weight: 700;
+    margin: 26px 0 8px;
+    color: var(--ink);
+  }
+  .doc-body p {
+    color: var(--ink-soft);
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .doc-body ul {
+    margin: 0 0 16px 22px;
+    color: var(--ink-soft);
+  }
+  .doc-body li { margin-bottom: 8px; font-size: 16px; }
+  .doc-body a { color: var(--moss); text-decoration: underline; }
+  .doc-body a:hover { color: var(--signal); }
+  .doc-body strong { color: var(--ink); }
+
+  /* SMS CALLOUT */
+  .sms-callout {
+    background: var(--cream);
+    border-left: 4px solid var(--moss);
+    border-radius: 4px;
+    padding: 24px 26px;
+    margin: 28px 0;
+  }
+  .sms-callout h3 {
+    margin-top: 0;
+    color: var(--ink);
+  }
+  .sms-callout p:last-child { margin-bottom: 0; }
+
+  /* FOOTER */
+  .doc-footer {
+    background: var(--ink);
+    color: #8fa3bd;
+    padding: 40px 28px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .doc-footer a { color: var(--cream); text-decoration: none; font-weight: 600; }
+  .doc-footer a:hover { color: var(--signal); }
+  .doc-footer .footer-links { margin-bottom: 16px; }
+  .doc-footer .footer-links a { margin: 0 12px; }
+
+  @media (max-width: 600px) {
+    .nav { padding: 14px 18px; }
+    .doc-hero { padding: 44px 18px 40px; }
+    .doc-body { padding: 40px 18px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="logo">S<span class="plus">+</span>S Home Solutions</a>
+  <a href="tel:+13129990021" class="nav-phone"><span class="dot">●</span>(312) 999-0021</a>
+</nav>
+
+<header class="doc-hero">
+  <div class="doc-hero-inner">
+    <div class="doc-eyebrow">Privacy Policy</div>
+    <h1>How we handle your information.</h1>
+    <p>We built this business on honesty, and that includes how we treat your personal information. This policy explains what we collect, why, and the promises we make about keeping it private.</p>
+    <div class="doc-updated">Last updated: June 2026</div>
+  </div>
+</header>
+
+<main class="doc-body">
+
+  <p>S+S Home Solutions ("we," "us," or "our") operates the website sandshomesolutions.com (the "Site"). This Privacy Policy explains how we collect, use, and protect the information you share with us when you use our Site or contact us about selling your property.</p>
+
+  <p>By using our Site or submitting your information through our forms, you agree to the practices described in this policy.</p>
+
+  <h2>Information we collect</h2>
+
+  <p>When you fill out a form on our Site or contact us, we may collect:</p>
+  <ul>
+    <li><strong>Contact information:</strong> your name, phone number, and email address.</li>
+    <li><strong>Property information:</strong> the address of the property you're inquiring about, its condition, your relationship to it, your reason for selling, and your timeline.</li>
+    <li><strong>Communication preferences:</strong> the consent choices you make about how we may contact you.</li>
+    <li><strong>Technical information:</strong> basic data your browser sends automatically, such as your general location, device type, and how you found our Site, collected through analytics tools.</li>
+  </ul>
+
+  <h2>How we use your information</h2>
+
+  <p>We use the information you provide to:</p>
+  <ul>
+    <li>Respond to your inquiry and prepare a cash offer for your property.</li>
+    <li>Contact you by phone, text, or email about your inquiry, as you've authorized.</li>
+    <li>Coordinate the details of a potential sale, including scheduling and paperwork.</li>
+    <li>Communicate with you about a transaction after a purchase agreement is signed, including closing coordination, title and escrow, scheduling, and other steps necessary to complete the sale.</li>
+    <li>Improve our Site and understand how visitors use it.</li>
+    <li>Comply with legal obligations.</li>
+  </ul>
+
+  <div class="sms-callout">
+    <h3>Text messages and phone calls (SMS/Phone consent)</h3>
+    <p>When you enter your information and check the consent boxes on our form, you agree that doing so acts as your electronic signature and express written consent for S+S Home Solutions to contact you by text message and phone call at the number you provide. You understand that these calls and texts may be made using automated dialing technology or pre-recorded or automated messages. Consent to receive these communications is not required to do business with us, and is not a condition of receiving an offer.</p>
+    <p><strong>Transactional and conversational messages</strong> relate directly to your inquiry, such as property details, responses to your questions, and appointment confirmations. <strong>Marketing messages</strong> (only if you separately opt in) may include property offers, promotions, and other real estate-related information.</p>
+    <p>Message frequency varies. Message and data rates may apply. You can opt out of text messages at any time by replying <strong>STOP</strong>, and you can get help by replying <strong>HELP</strong>. You may also revoke your consent at any time through any reasonable means, including by calling or emailing us using the contact information below. We honor opt-out requests as quickly as our system allows. Opting out of texts will not affect our ability to work with you on your property inquiry through other channels.</p>
+    <p><strong>We do not sell or share your phone number or text-message consent with third parties or affiliates for their marketing purposes.</strong> We keep a record of the consent you provide, including the date and time and what you agreed to, for compliance purposes.</p>
+  </div>
+
+  <h2>How we share your information</h2>
+
+  <p><strong>We do not sell your personal information.</strong> We do not share it with third parties or affiliates for their own promotional or marketing purposes.</p>
+
+  <p>We may share limited information only in these specific situations:</p>
+  <ul>
+    <li><strong>Service providers:</strong> trusted companies that help us operate our business (such as our customer-relationship management software, email and text-message providers, and analytics tools), who are only permitted to use the information to perform services for us.</li>
+    <li><strong>Closing a transaction:</strong> if you move forward with a sale, we may share necessary information with title companies, attorneys, or other parties required to complete the closing.</li>
+    <li><strong>Legal requirements:</strong> when required by law, subpoena, or to protect our legal rights.</li>
+  </ul>
+
+  <h2>If our business changes hands</h2>
+
+  <p>If S+S Home Solutions is ever sold, merged, or otherwise transfers ownership, your information may be part of that transfer. If that happens, we will notify you, and your information would remain subject to the privacy commitments described here unless and until you are told otherwise.</p>
+
+  <h2>How we protect your information</h2>
+
+  <p>We take reasonable measures to protect the information you share with us. However, no method of transmission over the internet or electronic storage is completely secure, so we cannot guarantee absolute security.</p>
+
+  <h2>How long we keep your information</h2>
+
+  <p>We keep your information for as long as needed to respond to your inquiry, work with you on a potential or completed transaction, and meet our legal, tax, and recordkeeping obligations. When we no longer need it, we take reasonable steps to delete or securely retain it. You can ask us to delete your information at any time using the contact details below, and we will honor that request unless we're required to keep certain records by law.</p>
+
+  <h2>Your choices and rights</h2>
+
+  <p>You have control over your information:</p>
+  <ul>
+    <li><strong>Opt out of texts:</strong> reply STOP to any text message.</li>
+    <li><strong>Opt out of email:</strong> use the unsubscribe link in any marketing email, or contact us directly.</li>
+    <li><strong>Request access or deletion:</strong> you may ask us what information we hold about you, or request that we delete it, by contacting us at the email below.</li>
+  </ul>
+
+  <p>Depending on where you live, you may have additional rights under state privacy laws. Contact us and we'll do our best to honor any request the law provides for.</p>
+
+  <h2>Cookies and analytics</h2>
+
+  <p>Our Site uses cookies and similar technologies to understand how visitors use the Site and to improve it. You can control cookies through your browser settings. We may use analytics services that collect standard internet log information and visitor behavior in an anonymized form.</p>
+
+  <h2>Children's privacy</h2>
+
+  <p>Our Site and services are intended for adults. We do not knowingly collect information from anyone under 18 years of age.</p>
+
+  <h2>Scope of this policy</h2>
+
+  <p>This Privacy Policy applies to information collected through our website. It does not cover information you may share with us offline, such as in person, by phone, or on paperwork during a transaction, though we treat all of your information with the same care and the same commitment never to sell it.</p>
+
+  <h2>Changes to this policy</h2>
+
+  <p>We may update this Privacy Policy from time to time. When we do, we'll revise the "Last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+
+  <h2>Contact us</h2>
+
+  <p>If you have questions about this Privacy Policy or how we handle your information, please reach out:</p>
+  <p>
+    <strong>S+S Home Solutions</strong><br>
+    Email: <a href="mailto:Angela@SandSHomeSolutions.com">Angela@SandSHomeSolutions.com</a><br>
+    Phone: <a href="tel:+13129990021">(312) 999-0021</a>
+  </p>
+
+</main>
+
+<footer class="doc-footer">
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+    <a href="mailto:Angela@SandSHomeSolutions.com">Contact</a>
+  </div>
+  <div>© 2026 S+S Home Solutions. Simple. Honest. Sold.</div>
+</footer>
+
+</body>
+</html>
